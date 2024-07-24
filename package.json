@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
-    "@dynamic-labs/ethereum": "2.1.0-alpha.13",
-    "@dynamic-labs/sdk-react-core": "2.1.0-alpha.13",
+    "@dynamic-labs/ethereum": "*",
+    "@dynamic-labs/sdk-react-core": "*",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -15,8 +15,10 @@
     "web-vitals": "^2.1.4"
   },
   "overrides": {
-    "typescript": "4.9.5"
-  },
+  "typescript": "4.9.5",
+  "rpc-websockets": "7.10.0",
+  "@solana/web3.js": "1.91.6"
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
